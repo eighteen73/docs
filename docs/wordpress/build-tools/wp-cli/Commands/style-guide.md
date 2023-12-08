@@ -12,7 +12,7 @@ Popular HTML elements to assist with the validation of base CSS styling.
 - **/style-guide/blocks**    
 A curated selection of page builder blocks that are commonly used.
 - **/style-guide/patterns**    
-All teh block patterns that have been registered in the theme.
+All the block patterns that have been registered in the theme.
 
 :::caution
 
