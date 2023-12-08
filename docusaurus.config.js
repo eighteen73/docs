@@ -71,6 +71,10 @@ const config = {
                 label: 'Plugins',
                 to: 'wordpress/plugins',
               },
+              {
+                label: 'WP-CLI',
+                to: 'wordpress/wp-cli',
+              },
             ]
           },
           {

@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# WP-CLI Tools
+# WP-CLI
 
 <repo-link name="wp-cli-tools" licence="MIT" />
 
