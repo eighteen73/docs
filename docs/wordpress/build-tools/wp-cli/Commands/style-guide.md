@@ -14,6 +14,8 @@ A curated selection of page builder blocks that are commonly used.
 - **/style-guide/patterns**    
 All the block patterns that have been registered in the theme.
 
+All pages are made private, so they are only visible to website editors and will not be presented to search engines.
+
 :::caution
 
 Existing content at any of the above paths will be overwritten.
