@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'eighteen73 Docs',
-  tagline: 'Documentation for packages published by eighteen73.',
+  tagline: 'Documentation For Packages & Plugins',
   url: 'https://docs.eighteen73.co.uk',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -93,20 +93,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'More',
-            items: [
-              {
-                label: 'Website',
-                href: 'https://eighteen73.co.uk',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/eighteen73',
-              },
-            ],
+            label: 'Website',
+            href: 'https://eighteen73.co.uk',
+          },
+          {
+            label: 'GitHub',
+            href: 'https://github.com/eighteen73',
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} eighteen73`,
+        copyright: `© ${new Date().getFullYear()} eighteen73`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -115,13 +110,6 @@ const config = {
           'ini',
           'php',
         ],
-      },
-      announcementBar: {
-        id: 'work_in_progress',
-        content: '<strong>These docs are work-in-progress.</strong> All published information is correct but there may be some gaps.',
-        backgroundColor: '#7278cc',
-        textColor: '#ffffff',
-        isCloseable: false,
       },
     }),
 };
