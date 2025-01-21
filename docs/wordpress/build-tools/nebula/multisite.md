@@ -7,6 +7,12 @@ sidebar_label: Multisite
 
 ## NGINX
 
+:::info
+
+For multisite development with Laravel Herd, please refer to [Using Herd](using-herd).
+
+:::
+
 If you're using NGINX you will need to add one of the following two snippets to your host's config. Select the one that matches your website configuration.
 
 For subdomain mode:
