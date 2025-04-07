@@ -13,7 +13,7 @@ sidebar_label: Installation
 
 To install the package run the following command:
 
-```bash
+```shell
 wp package install eighteen73/wp-cli-tools
 ```
 
@@ -23,6 +23,20 @@ Everything documented here assumes you are running the latest copy of this packa
 
 To update the package run the following command:
 
-```bash
+```shell
 wp package update
 ```
+
+## Development Installation
+
+During development for this package you might want want to use your local copy within WP-CLI.
+
+```shell
+# Remove the live package (if installed)
+wp package remove eighteen73/wp-cli-tools
+
+# Install your local copy
+wp package install /local/path/to/wp-cli-tools
+```
+
+Reverse the above when you're ready to return to the published version.
