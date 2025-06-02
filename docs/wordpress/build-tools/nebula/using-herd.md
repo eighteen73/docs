@@ -40,7 +40,7 @@ class NebulaValetDriver extends BedrockValetDriver
         // Simple string match for a mention of nebula or nebula-tools (decoding JSON is unnecessarily expensive)
         $composer = file_get_contents($sitePath.'/composer.json');
 
-        return str_contains($composer, 'eighteen73/nebula');
+        return strpos($composer, 'eighteen73/nebula') !== false;
     }
 
     public function isStaticFile(string $sitePath, string $siteName, string $uri)/* : string|false */
