@@ -4,7 +4,7 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 ### Installation
 
-This has been tested with Node 18.
+This has been tested with Node 22.
 
 ```shell
 npm install
