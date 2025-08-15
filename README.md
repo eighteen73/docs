@@ -20,4 +20,4 @@ This command starts a local development server and opens up a browser window. Mo
 
 ### Deployment
 
-Deployment is handled automatically by a GitHub Workflow.
+Deployment is handled automatically by Kinsta static sites.
